@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>WinBoard.Swipe</RootNamespace>
+    <AssemblyName>WinBoard.Swipe</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinBoard.Core\WinBoard.Core.csproj" />
+  </ItemGroup>
+</Project>

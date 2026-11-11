@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C344F0DF-173
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinBoard.Core", "src\WinBoard.Core\WinBoard.Core.csproj", "{702CBB62-0B89-4620-9494-63F10D7CDD2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinBoard.Swipe", "src\WinBoard.Swipe\WinBoard.Swipe.csproj", "{2D14907F-AA49-449F-9B4B-8C06454476A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DD7F2D0F-B45E-4EB4-91AC-50D99D2528DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinBoard.Swipe.Tests", "tests\WinBoard.Swipe.Tests\WinBoard.Swipe.Tests.csproj", "{7399C056-6E96-487E-A59B-45B49362B424}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +26,18 @@ Global
 		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D14907F-AA49-449F-9B4B-8C06454476A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D14907F-AA49-449F-9B4B-8C06454476A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D14907F-AA49-449F-9B4B-8C06454476A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D14907F-AA49-449F-9B4B-8C06454476A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7399C056-6E96-487E-A59B-45B49362B424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7399C056-6E96-487E-A59B-45B49362B424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7399C056-6E96-487E-A59B-45B49362B424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7399C056-6E96-487E-A59B-45B49362B424}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{702CBB62-0B89-4620-9494-63F10D7CDD2E} = {C344F0DF-1739-4B61-8C3A-891EDF121A97}
+		{2D14907F-AA49-449F-9B4B-8C06454476A5} = {C344F0DF-1739-4B61-8C3A-891EDF121A97}
+		{7399C056-6E96-487E-A59B-45B49362B424} = {DD7F2D0F-B45E-4EB4-91AC-50D99D2528DA}
 	EndGlobalSection
 EndGlobal
