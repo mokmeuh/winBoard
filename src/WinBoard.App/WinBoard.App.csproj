@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <AssemblyName>WinBoard</AssemblyName>
+    <RootNamespace>WinBoard.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <SatelliteResourceLanguages>fr;en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Évite les ambiguïtés WPF / WinForms avec les usings implicites -->
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WinBoard.Core\WinBoard.Core.csproj" />
+    <ProjectReference Include="..\WinBoard.Swipe\WinBoard.Swipe.csproj" />
+    <ProjectReference Include="..\WinBoard.Services\WinBoard.Services.csproj" />
+    <ProjectReference Include="..\WinBoard.Language\WinBoard.Language.csproj" />
+    <ProjectReference Include="..\WinBoard.Input\WinBoard.Input.csproj" Condition="Exists('..\WinBoard.Input\WinBoard.Input.csproj')" />
+    <Compile Include="$(WbStubs)\*.cs" Condition="'$(WbStubs)' != ''" />
+  </ItemGroup>
+
+</Project>

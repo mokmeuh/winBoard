@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>WinBoard.Services</RootNamespace>
+    <AssemblyName>WinBoard.Services</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WinBoard.Core\WinBoard.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Base d'émojis embarquée (voir Data/ATTRIBUTION.md) -->
+    <EmbeddedResource Include="Data\emoji.json" LogicalName="WinBoard.Services.Data.emoji.json" />
+  </ItemGroup>
+
+</Project>
