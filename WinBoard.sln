@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C344F0DF-1739-4B61-8C3A-891EDF121A97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinBoard.Core", "src\WinBoard.Core\WinBoard.Core.csproj", "{702CBB62-0B89-4620-9494-63F10D7CDD2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702CBB62-0B89-4620-9494-63F10D7CDD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{702CBB62-0B89-4620-9494-63F10D7CDD2E} = {C344F0DF-1739-4B61-8C3A-891EDF121A97}
+	EndGlobalSection
+EndGlobal
