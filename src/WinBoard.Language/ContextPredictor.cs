@@ -48,20 +48,8 @@ public sealed class ContextPredictor
             res = Complete(head, prefix[el..], max).Select(w => head + w).ToList();
         }
 
-        // La saisie n'est pas un mot : la correction confiante passe devant les complétions.
-        if (_corrector != null && prefix.Length >= 2 && !_corrector.IsKnown(prefix))
-        {
-            var fix = _corrector.AutoCorrect(prefix);
-            if (fix != null)
-            {
-                fix = TextUtil.Normalize(fix);
-                res.Remove(fix);
-                res.Insert(0, fix);
-            }
-            else if (res.Count == 0)
-                res = _corrector.Suggest(prefix, max).Select(TextUtil.Normalize).ToList();
-        }
-        else if (res.Count == 0 && _corrector != null)
+        // Le préfixe ne mène à aucun mot : repli sur les corrections orthographiques.
+        if (res.Count == 0 && _corrector != null)
             res = _corrector.Suggest(prefix, max).Select(TextUtil.Normalize).ToList();
 
         return res.Distinct().Take(max).Select(w => TextUtil.ApplyCase(original, w)).ToList();

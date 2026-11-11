@@ -22,6 +22,11 @@ ce 2533544
 pour 2475533
 ai 2437065
 des 1902327
+c'est 1735562
+n'est 1735562
+m'est 1735562
+s'est 1735562
+qu'est 1735562
 qui 1665879
 mais 1641141
 dans 1508883
@@ -40,8 +45,18 @@ plus 1214520
 mon 1195613
 te 1127735
 au 1109359
+l'un 1090224
+d'un 1090224
+qu'un 1090224
 fait 1054966
 moi 1048758
+qu'à 1029989
+jusqu'à 1029989
+s'il 1006310
+qu'il 1006310
+lorsqu'il 1006310
+puisqu'il 1006310
+quoiqu'il 1006310
 oui 1001703
 va 989526
 était 985841
@@ -49,18 +64,36 @@ as 974673
 faire 966573
 ils 945659
 sur 939169
+l'a 919920
+n'a 919920
+m'a 919920
+t'a 919920
 quoi 894291
 se 867737
 comme 864987
 sais 851748
 être 743252
 veux 738917
+j'en 731352
+c'en 731352
+n'en 731352
+t'en 731352
+s'en 731352
+qu'en 731352
+jusqu'en 731352
 ici 725494
 ma 716527
 toi 707904
 est-ce 707256
 dit 701414
 lui 689708
+l'on 689086
+qu'on 689086
+lorsqu'on 689086
+puisqu'on 689086
+l'une 679370
+d'une 679370
+qu'une 679370
 votre 677006
 es 662531
 pourquoi 657070
@@ -68,6 +101,9 @@ où 643564
 là 643024
 rien 638070
 cette 626319
+j'ai 609266
+n'ai 609266
+qu'ai 609266
 sont 609102
 quand 598113
 peux 594578
@@ -104,6 +140,8 @@ ces 388071
 allez 374660
 ta 373455
 autre 370961
+d'elle 369221
+qu'elle 369221
 peu 354756
 temps 354330
 quelque 353553
@@ -112,6 +150,9 @@ toujours 345760
 encore 342386
 notre 339810
 mes 332672
+j'y 330173
+n'y 330173
+s'y 330173
 besoin 329446
 avait 320073
 accord 315183
@@ -124,6 +165,7 @@ fois 297685
 vu 290541
 donc 281973
 sans 281163
+jusqu'au 277339
 monde 277005
 étais 276408
 parce 273723
@@ -136,7 +178,13 @@ avais 257602
 père 257456
 crois 251561
 après 250383
+c'était 246460
+n'était 246460
+s'était 246460
 aux 244896
+n'as 243668
+m'as 243668
+t'as 243668
 dieu 242078
 ouais 241407
 ses 240780
@@ -144,6 +192,8 @@ pense 240390
 eu 238206
 aime 237696
 leur 236536
+s'ils 236414
+qu'ils 236414
 homme 236357
 viens 233234
 vrai 233001
@@ -175,7 +225,10 @@ ca 189898
 voilà 189677
 avons 186788
 petit 186600
+d'être 185813
 maison 185035
+d'ici 181373
+jusqu'ici 181373
 soit 179962
 cela 177397
 autres 175480
@@ -184,11 +237,14 @@ soir 172574
 passé 172214
 prendre 170367
 jour 170304
+n'es 165632
+t'es 165632
 monsieur 164959
 nos 164465
 savoir 163428
 choses 163193
 salut 160990
+d'où 160891
 cet 160783
 nom 160549
 argent 159413
@@ -211,6 +267,7 @@ aurais 143292
 problème 141208
 ah 140158
 peur 139829
+n'avez 138199
 regarde 138016
 voulez 137416
 gars 136154
@@ -255,6 +312,8 @@ aurait 120181
 part 119964
 elles 118978
 jours 118455
+n'ont 117914
+qu'ont 117914
 grand 117213
 aujourd'hui 117159
 venir 116762
@@ -277,10 +336,12 @@ sortir 109313
 super 108980
 heure 108452
 contre 108451
+l'été 108143
 coup 108065
 comprends 107885
 entendu 107777
 vient 107616
+d'avoir 106794
 allons 106551
 ensemble 106057
 nouveau 105566
@@ -314,6 +375,8 @@ frère 94005
 laisser 93545
 aucun 93134
 mettre 92980
+l'autre 92740
+d'autre 92740
 eux 92010
 laisse 91272
 chaque 91035
@@ -358,10 +421,13 @@ première 80647
 côté 80162
 point 80138
 tellement 80089
+n'avait 80018
+m'avait 80018
 main 79961
 tiens 79293
 sois 79031
 enfant 78904
+d'accord 78795
 vieux 78652
 matin 78600
 venu 77238
@@ -373,6 +439,7 @@ minutes 76229
 demandé 76129
 venez 76029
 devant 75940
+d'aller 75875
 dr 75475
 enfin 75391
 arrêter 74860
@@ -411,6 +478,8 @@ possible 69891
 jouer 69516
 demander 69293
 celui 69179
+j'étais 69102
+m'étais 69102
 voulait 68950
 beau 67782
 jeune 67609
@@ -430,11 +499,14 @@ semaine 65429
 vivre 64664
 regardez 64586
 feu 64459
+j'avais 64400
+t'avais 64400
 journée 63963
 madame 63463
 hey 63364
 téléphone 62803
 près 62659
+d'après 62595
 affaires 62509
 meilleur 62322
 devez 62051
@@ -459,9 +531,13 @@ important 59641
 dites 59498
 exactement 59442
 font 59434
+j'aime 59424
+m'aime 59424
+t'aime 59424
 fort 59357
 presque 59183
 plein 59129
+l'homme 59089
 derrière 59059
 ben 59042
 mariage 58910
@@ -551,6 +627,7 @@ service 47219
 devoir 47066
 attend 46971
 drôle 46916
+n'avons 46697
 difficile 46667
 sûre 46585
 pire 46569
@@ -587,6 +664,7 @@ café 44063
 calme 44023
 cherche 43990
 montrer 43938
+d'autres 43870
 parles 43864
 photo 43835
 ferme 43771
@@ -645,6 +723,7 @@ bras 40381
 cul 40257
 prochaine 40242
 visage 39958
+l'argent 39853
 meilleure 39793
 face 39743
 soirée 39649
@@ -673,6 +752,7 @@ mr 38242
 rentre 38212
 rendez-vous 38209
 devait 38107
+j'arrive 38072
 revenir 38040
 joue 37977
 pauvre 37944
@@ -692,6 +772,8 @@ intérieur 37333
 honneur 37223
 dormir 37219
 an 37176
+m'aider 37151
+l'air 37092
 faux 37004
 messieurs 36835
 groupe 36747
@@ -750,6 +832,8 @@ cru 33759
 déteste 33715
 retrouver 33686
 millions 33596
+j'attends 33536
+t'attends 33536
 incroyable 33500
 voyage 33467
 ailleurs 33452
@@ -777,6 +861,8 @@ dos 31944
 armée 31939
 paix 31914
 battre 31889
+m'appelle 31841
+s'appelle 31841
 york 31805
 crime 31784
 anniversaire 31734
@@ -793,6 +879,7 @@ arrêté 31461
 hôtel 31438
 idiot 31388
 okay 31277
+s'arrête 31213
 rencontré 31211
 restez 31133
 absolument 31103
@@ -820,6 +907,7 @@ fond 30337
 surprise 30330
 croyez 30274
 devais 30216
+l'idée 30167
 ligne 29986
 porter 29973
 imagine 29930
@@ -827,6 +915,8 @@ colère 29833
 clair 29823
 seront 29823
 savait 29819
+d'elles 29744
+qu'elles 29744
 balle 29671
 gagné 29628
 or 29615
@@ -838,6 +928,7 @@ su 29297
 heureuse 29291
 mission 29188
 jolie 29170
+l'ami 29159
 parlez 29154
 présent 29154
 sorti 29142
@@ -896,6 +987,7 @@ arrière 27266
 lire 27246
 doucement 27137
 joli 27123
+l'heure 27113
 avance 27109
 exact 27037
 disait 26948
@@ -926,8 +1018,10 @@ danger 26235
 dangereux 26231
 folle 26212
 jure 26199
+l'amour 26125
 tiré 26123
 essaye 26116
+n'importe 26107
 bonnes 26100
 offre 26091
 but 26086
@@ -995,6 +1089,7 @@ voler 24427
 blanc 24420
 george 24408
 certain 24340
+l'histoire 24340
 don 24313
 âme 24204
 manière 24165
@@ -1034,6 +1129,7 @@ bouche 23143
 préfère 23099
 coupable 23084
 rire 23042
+d'eux 23002
 payé 22996
 soin 22983
 milieu 22979
@@ -1133,6 +1229,7 @@ ramener 20818
 règles 20817
 nez 20807
 justice 20765
+l'endroit 20735
 fbi 20727
 découvert 20726
 départ 20689
@@ -1252,9 +1349,11 @@ arrivera 18624
 presse 18614
 merveilleux 18609
 asseoir 18573
+l'eau 18566
 ravi 18561
 aimais 18539
 amérique 18514
+j'espère 18487
 fenêtre 18461
 mien 18458
 terrain 18458
@@ -1388,6 +1487,7 @@ faits 16574
 ancien 16556
 stop 16540
 accepter 16539
+l'école 16537
 restes 16529
 nouveaux 16518
 sauter 16513
@@ -1480,6 +1580,7 @@ coupe 15333
 secrets 15321
 prince 15310
 marrant 15297
+l'équipe 15293
 raisons 15287
 refuse 15283
 apporté 15240
@@ -1668,6 +1769,7 @@ vendu 13289
 majesté 13285
 menace 13284
 malgré 13278
+d'autant 13274
 appareil 13265
 demandais 13264
 là-haut 13262
@@ -1677,6 +1779,7 @@ forces 13238
 fonctionne 13215
 méchant 13213
 jambe 13205
+l'instant 13180
 empreintes 13169
 ange 13146
 agir 13130
@@ -1741,6 +1844,7 @@ prendra 12622
 surpris 12618
 jeté 12602
 également 12596
+d'abord 12580
 fac 12569
 apporter 12563
 washington 12554
@@ -1810,11 +1914,13 @@ source 12022
 france 12002
 créer 12000
 samedi 11994
+j'adore 11982
 aidez-moi 11964
 univers 11956
 saura 11944
 réalisé 11943
 américains 11943
+l'année 11936
 perds 11934
 membres 11927
 viande 11918
@@ -1864,6 +1970,7 @@ entendez 11626
 ouverte 11606
 bâtiment 11603
 a-t-elle 11589
+l'état 11588
 devrions 11587
 embrasser 11579
 tombée 11575
@@ -1928,6 +2035,7 @@ traitement 11165
 jerry 11163
 senti 11163
 cancer 11161
+t'inquiète 11159
 répète 11156
 reposer 11137
 regrette 11135
@@ -1989,6 +2097,7 @@ dira 10724
 créé 10723
 jason 10721
 supporter 10712
+l'avis 10705
 milliers 10701
 heu 10695
 infirmière 10685
@@ -2207,6 +2316,7 @@ cabinet 9353
 normale 9352
 alerte 9348
 meurtrier 9335
+l'intérieur 9333
 whoa 9322
 libérer 9320
 commis 9297
@@ -2417,6 +2527,7 @@ fausse 8488
 élevé 8477
 chair 8474
 magique 8471
+l'ordre 8467
 chaîne 8464
 chèque 8462
 réseau 8461
@@ -2443,6 +2554,7 @@ scientifique 8374
 russe 8374
 cris 8367
 traité 8366
+d'ailleurs 8363
 attaqué 8359
 écoutez-moi 8356
 montez 8354
@@ -2463,6 +2575,7 @@ réputation 8274
 étudier 8272
 trompe 8264
 chute 8264
+j'aurai 8264
 jackson 8254
 demi 8251
 devra 8247
@@ -2554,6 +2667,7 @@ st 7935
 réaction 7931
 ennuie 7928
 laura 7925
+s'agit 7913
 pub 7908
 hiver 7907
 manteau 7893
@@ -2603,6 +2717,7 @@ impliqué 7674
 répéter 7672
 pardonner 7672
 donnerai 7671
+d'habitude 7670
 soi 7669
 marine 7664
 cadavre 7663
@@ -2664,6 +2779,7 @@ show 7491
 julia 7487
 mardi 7487
 juré 7482
+j'imagine 7482
 barry 7481
 médecine 7481
 restera 7474
@@ -3706,6 +3822,7 @@ habitants 5081
 comté 5079
 étudié 5078
 bol 5078
+l'avenir 5076
 dette 5067
 diner 5067
 rêver 5066
@@ -4079,6 +4196,7 @@ cravate 4501
 mourra 4501
 effacer 4500
 t-shirt 4499
+j'irai 4498
 brigade 4496
 événement 4496
 rappelé 4496
@@ -5546,6 +5664,7 @@ nicky 3090
 confus 3089
 possibles 3088
 shaw 3088
+l'extérieur 3086
 infirmerie 3085
 savon 3085
 terreur 3083
@@ -8505,7 +8624,6 @@ appuyez 1759
 prendrez 1758
 phrases 1758
 britanniques 1758
-jai 1758
 aviez-vous 1758
 canyon 1756
 lori 1756
@@ -10017,7 +10135,6 @@ lèche 1384
 voiles 1384
 hautes 1384
 tombez 1383
-cest 1383
 déjeune 1383
 criez 1383
 santiago 1383
@@ -28531,7 +28648,6 @@ grillées 270
 tuiez 270
 chercheuse 270
 intestinale 270
-quil 270
 attendes 270
 assassinées 270
 croître 270
@@ -32601,7 +32717,6 @@ pied-de-biche 213
 spirituelles 213
 physiciens 213
 ballot 213
-quon 213
 gente 213
 renzo 213
 échapperez 213
@@ -32699,7 +32814,6 @@ tachée 212
 imprévue 212
 écrabouiller 212
 africaines 212
-nest 212
 yellowstone 212
 attester 212
 sonic 212

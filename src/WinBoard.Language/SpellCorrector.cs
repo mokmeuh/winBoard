@@ -10,7 +10,7 @@ namespace WinBoard.Language;
 public sealed class SpellCorrector
 {
     // Un accent n'est rétabli sur un mot connu que si la variante est nettement plus fréquente (ca -> ça).
-    private const double AccentUpgradeRatio = 20.0;
+    private const double AccentUpgradeRatio = 10.0;
     private const double MaxAutoCorrectCost = 4.01;
 
     private readonly ILexicon _lexicon;
@@ -38,7 +38,7 @@ public sealed class SpellCorrector
         if (w.Length == 0) return false;
         if (KnownDirect(w)) return true;
         int e = TextUtil.ElisionLength(w);
-        if (e > 0 && KnownDirect(w[..e]) && IsKnown(w[e..])) return true;
+        if (e > 0 && IsKnown(w[e..])) return true;
         if (w.Contains('-') && !w.StartsWith('-') && !w.EndsWith('-'))
             return w.Split('-').All(p => p.Length > 0 && KnownDirect(p));
         return false;
@@ -114,7 +114,12 @@ public sealed class SpellCorrector
 
         var res = new List<string>(max);
         bool known = IsKnown(lower);
-        if (known) res.Add(lower);
+        if (known)
+        {
+            var up = AccentUpgrade(original, lower);
+            if (up != null) res.Add(TextUtil.Normalize(up));
+            res.Add(lower);
+        }
         foreach (var c in Search(lower))
         {
             if (res.Count >= max) break;
@@ -149,7 +154,7 @@ public sealed class SpellCorrector
         if (top.Cost > MaxAutoCorrectCost) return null;
         if (lower.Length <= 2 && top.Cost >= 1.0) return null;
         double margin = cands.Count > 1 ? top.Score - cands[1].Score : double.PositiveInfinity;
-        if (margin < (lower.Length <= 3 ? 2.0 : 1.0)) return null;
+        if (margin < (lower.Length <= 3 && top.Cost > 1.0 ? 2.0 : 1.0)) return null;
         return TextUtil.ApplyCase(original, top.Word);
     }
 

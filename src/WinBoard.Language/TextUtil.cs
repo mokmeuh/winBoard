@@ -68,11 +68,16 @@ internal static class TextUtil
         return result;
     }
 
-    /// <summary>Longueur de l'élision initiale (« l' », « qu' »...) ou 0 s'il n'y en a pas.</summary>
+    private static readonly HashSet<string> ElisionHeads = new(StringComparer.Ordinal)
+    {
+        "l'", "d'", "j'", "n'", "m'", "t'", "s'", "c'", "qu'", "jusqu'", "lorsqu'", "puisqu'", "quoiqu'",
+    };
+
+    /// <summary>Longueur de l'élision initiale française (« l' », « qu' »...) ou 0 s'il n'y en a pas.</summary>
     public static int ElisionLength(string word)
     {
         int i = word.IndexOf('\'');
-        return i is > 0 and <= 6 && i < word.Length - 1 ? i + 1 : 0;
+        return i > 0 && i < word.Length - 1 && ElisionHeads.Contains(word[..(i + 1)]) ? i + 1 : 0;
     }
 
     /// <summary>Découpe un texte en mots (lettres, apostrophes et traits d'union internes), en minuscules.</summary>
