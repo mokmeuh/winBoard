@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>WinBoard.Language</RootNamespace>
+    <AssemblyName>WinBoard.Language</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinBoard.Core\WinBoard.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\*.txt;Data\ATTRIBUTION.md" LogicalName="WinBoard.Language.Data.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>
